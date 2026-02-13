@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Player Page</title>
+</head>
+<body>
+
+    <!-- Main title -->
+    <h1>Media Showcase</h1>
+
+    <!-- First section: Video -->
+    <section>
+        <h2>Understanding the Map Method</h2>
+
+        <video controls width="640">
+            <source 
+                src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4"
+                type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Second section: Audio -->
+    <section>
+        <h2>Song Playing</h2>
+
+        <audio 
+            controls 
+            loop 
+            src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <p>It is done</p>
+    </section>
+
+</body>
+</html>
+
